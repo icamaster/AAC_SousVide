@@ -3,7 +3,7 @@ import serial
 import csv
 import sys
 #This is where we save data
-f = open('SoushVideData.csv','wb')
+f = open('SousVideData.csv','wb')
  
 def scan():
     """scan for available ports. return a list of tuples (num, name)"""
